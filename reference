@@ -1,0 +1,20 @@
+US map design code reference: 
+http://bl.ocks.org/jczaplew/4444770
+http://bl.ocks.org/josiahdavis/a3534073492ca37b3682
+Prompts: 0222
+Linear regression code reference:
+Professor Mimno's demo code in 041116 and 041816
+bubble chart code and function  organization and style inspired by:
+https://bost.ocks.org/mike/chart/
+https://github.com/vlandham/bubble_cloud
+http://slodge.com/teach/
+
+
+Data source:
+environmental pollution data source: http://catalog.data.gov/harvest/object/23ae0317-7b95-4b23-9ba0-7a1cd03bd256/html/original
+life quality data source: http://simplymap.com/index.html
+female and male longevity data source: http://www.worldlifeexpectancy.com/usa/life-expectancy-by-county
+disease severity and prevalence index are generated from:
+http://www.cdc.gov/
+https://www.nih.gov/
+by: http://www.infocaptor.com/bubble-my-page 

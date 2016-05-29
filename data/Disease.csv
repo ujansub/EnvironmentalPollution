@@ -1,0 +1,67 @@
+grant_title,id,amount,group,category,comments
+muscle weakness,1,5200,low,other_pollution,Mercury pollution related disease
+skin rashes,2,3000,low,other_pollution,Mercury pollution related disease
+mental disturbances such as mood swings and memory loss,3,10000,low,other_pollution,Mercury pollution related disease
+"impairment of speech, hearing and peripheral vision",4,3500,low,other_pollution,Mercury pollution related disease
+impairment of coordinated movements such as walking or writing,5,5000,low,other_pollution,Mercury pollution related disease
+"numbness and ""pins and needles"" feeling in the hands, feet and sometimes around the mouth",6,2000,low,other_pollution,Mercury pollution related disease
+Increased blood pressure,7,5000,low,other_pollution,Lead pollution related disease
+Decreased fertility,8,6000,low,other_pollution,Lead pollution related disease
+Cataracts,9,5000,low,other_pollution,Lead pollution related disease
+Nerve disorders,10,90000,low,other_pollution,Lead pollution related disease
+Muscle and joint pain,11,2500,low,other_pollution,Lead pollution related disease
+Memory or concentration problems,12,9000,low,other_pollution,Lead pollution related disease
+Respiratory diseases,13,13500,low,other_pollution,Sulfer dioxide exposure related disease
+dermal diseaese,14,13500,low,other_pollution,Sulfer dioxide exposure related disease
+Conjunctivitis and corneal burns (eye),15,7500,low,other_pollution,Sulfer dioxide exposure related disease
+"Nausea, vomiting, and abdominal pain",16,7500,low,other_pollution,Sulfer dioxide exposure related disease
+pulmonary fibrosis,17,12000,low,other_pollution,Sulfer dioxide exposure related disease
+chronic bronchitis,18,7500,low,other_pollution,Sulfer dioxide exposure related disease
+chemical bronchopneumonia with bronchiolitis obliterans,19,4500,low,other_pollution,Sulfer dioxide exposure related disease
+decline in pulmonary function,20,12000,low,other_pollution,Sulfer dioxide exposure related disease
+Dyspnea (shortness of breath),21,7500,low,other_pollution,Nitrogen dioxide exposure related disease
+Choking,22,9000,low,other_pollution,Nitrogen dioxide exposure related disease
+Chest pain,23,7500,low,other_pollution,Nitrogen dioxide exposure related disease
+Cholera,29,10000,medium,water_pollution,"Bacteria called 'vibrio chlorae' cause a small intestinal disease known as cholera. Symptoms of cholera include diarrhea and vomiting, as well as abdominal cramps and headache."
+Amoebiasis,30,7000,medium,water_pollution,One of the most common diseases caused by water pollution is amoebiasis. Water contaminated by amoeba can cause infection to the large intestine as well as the liver. Symptoms can range from mild to severe diarrhea with blood and mucus.
+Dysentery,31,120000,medium,water_pollution,"Dysentery causes fever, vomiting, abdominal pain, and severe diarrhea with blood and mucus. You may also have symptoms of mild illness such as mild stomach pain and diarrhea."
+Diarrhea,32,11000,medium,water_pollution,"Infectious diarrhea is one of the most common diseases caused by water pollution. It causes frequent passage of loose, water stools that can cause dehydration and death to young children and infants."
+Hepatitis A,33,13000,medium,water_pollution,"This infectious disease affects the liver and is caused by the hepatitis A virus. It usually spreads by the fecal-oral route, by ingestion of contaminated water or food, or by direct contact with an infected person. Hepatitis A infection is a self-limiting disease that does not lead to chronic infection/liver disease."
+Malaria,34,4000,medium,water_pollution,"Malaria is a disease caused by parasites, which are spread by female mosquitos calledAnopheles. Mosquitos breed in water, and when they bite a person infected with malaria, they can spread the infection to other people."
+Polyomavirus Infection,35,7000,medium,water_pollution,"The name polyoma refers to the viruses' ability to produce multiple (poly-) tumors (-oma). Polyomavirus are tumor viruses that affect animals and humans. They are often acquired in childhood and persist as infections in hosts without causing disease, but can lead to development of tumors in hosts with weak immune systems."
+Polio (Infantile Paralysis),36,11000,medium,water_pollution,"Poliomyelitis is an acute viral infection caused by poliovirus, which spreads through the fecal-oral-route. The virus is passed through water from the feces of an infected individual."
+Arsenicosis,37,7000,medium,water_pollution,This condition is caused by chronic exposure to small amounts of arsenic found in drinking-water.
+Fluorosis,38,1500,medium,water_pollution,This is a condition that leads to serious bone disease and is caused by high levels of fluoride naturally found in groundwater. It occurs in more than 25 countries around the world and estimates suggest that tens of millions of people may be affected
+Dracunculiasis (Guinea Worm Disease),39,3000,medium,water_pollution,"This is one of the diseases caused by water pollution in Africa. People are infected with the worms when they drink water contaminated with the larvae. These larvae develop into mature adult Guinea worms, which can grow up to a meter long. They leave the body after living there for about one year, leaving debilitating ulcers."
+Intestinal Worms,40,54000,medium,water_pollution,"Parasitic intestinal worms (helminthes/roundworms, whipworms and/or hookworms) can be transmitted through contaminated food and soil contaminated with human feces. It is estimated that up to 10 percent of the population, mostly children, has intestinal worms that can cause anemia, malnutrition, or growth retardation. Children are particularly susceptible and typically have the largest number of worms. It can be prevented by good sanitation and hygiene and use of clean drinking water and food."
+Trachoma (Eye Infection),41,30000,medium,water_pollution,This infection spreads through poor hygiene and sanitation caused by the lack of adequate safe water supply. It is more likely to affect women and children. Approximately 6 million people with trachoma have developed blindness. Studies show that providing people with adequate water supply can significantly reduce infection rates.
+Typhoid Fever,42,10000,medium,water_pollution,"This common bacterial infection affects around 12 million people annually. It is caused by the ingestion of contaminated food and water. Symptoms include nausea, loss of appetite, andheadache."
+Schistosomiasis (Bilharzia),43,13000,medium,water_pollution,"Schistosomiasis is caused by worms that are spread by freshwater snails living in contaminated water. They penetrate your skin while swimming, wading or washing in the contaminated water, causing cause infection and damage your liver, lungs, intestines, and bladder."
+Respiratory Effects,44,10000,medium,water_pollution,Copper pollution in water
+Gastrointestinal disease,45,12000,medium,water_pollution,"In workers involved in grinding and sieving copper dust, anorexia, nausea, and occasional diarrhea were reported"
+Decreased hemoglobin,46,6000,medium,water_pollution,"In workers involved in grinding and sieving copper dust, anorexia, nausea, and occasional diarrhea were reported"
+Hepatomegaly,47,7000,medium,water_pollution,Copper exposion and contamination related disease
+Endocrine enlargement,48,7000,medium,water_pollution,Copper exposion and contamination related disease
+Eye irritation,50,6000,medium,water_pollution,Copper exposion and contamination related disease
+metal fume fever,51,7500,medium,water_pollution,Copper exposion and contamination related disease
+Neurological,52,9500,medium,water_pollution,Copper exposion and contamination related disease
+"Headache, vertigo, and drowsiness",53,8000,medium,water_pollution,Copper exposion and contamination related disease
+Sexual impotence,54,4500,medium,water_pollution,Copper exposion and contamination related disease
+Mental disorder,55,55000,medium,water_pollution,Selenium excessive exposure
+Asthma,71,100000,high,air_pollution,"A condition in which breathing is difficult, affects millions of Americans. Environmental triggers for asthma are everywhere and include naturally occurring triggers such as animal dander, plant pollen, dust, and mold, and manmade triggers such as chemicals. Not everyone is sensitive to these triggers, but many people are sensitive to some of them."
+Carbon Monoxide Poisoning,72,8000,high,air_pollution,"Symptoms of mild acute poisoning include lightheadedness, confusion, headache, vertigo, and flu-like effects; larger exposures can lead to significant toxicity of the central nervous system and heart, and death"
+Liver and other types of cancer,73,100000,high,air_pollution,Caused by inhalation of fine particle (PM 2.5)
+Mold,74,1000,high,air_pollution,An air pollution related problem. Mold's prevalence is related to some air contaminants.
+Black lung disease,75,100000,high,air_pollution,"Black lung disease is an illness in which coal miners' lungs become coated with coal dust, causing a chronic condition in which breathing becomes difficult and painful."
+Silicosis,76,20000,high,air_pollution,A lung disease caused by exposure to the silica dust in clay.
+Breathing asbestos,77,80000,high,air_pollution,"A severe lung disorder, and lung cancer."
+Chronic Obstructive Pulmonary Disease _COPD,78,100000,high,air_pollution,"Chronic obstructive pulmonary (PULL-mun-ary) disease, is a progressive disease that makes it hard to breathe."
+Reduced lung function,79,80000,high,air_pollution,Caused by inhalation of fine particle (PM 2.5)
+Pulmonary cancer,80,100000,high,air_pollution,Caused by inhalation of fine particle (PM 2.5)
+Mesothelioma,81,9000,high,air_pollution,Mesothelioma is a type of cancer that develops from the thin layer of tissue that covers many of the internal organs (known as the mesothelium). The most common area affected is thelining of the lungs and chest wall.
+Pneumonia,82,11000,high,air_pollution,Pneumonia is an inflammatory condition of the lung affecting primarily the microscopic air sacs known as alveoli.
+Leukemia,83,8000,high,air_pollution,Leukemia is actually a group of different cancers of the blood cells.
+Birth defects and immune system defects,84,100000,high,air_pollution,Potentially caused by exposure to polluted air and water
+"Cardiovascular problems, heart diseases and stroke",85,100000,low,other_pollution,"Can be caused by air, water, and other toxic material pollution"
+Neurobehavioral disorders - neurological problems and developmental deficits,86,100000,low,other_pollution,"Can be caused by air, water, and other toxic material pollution"
+Premature death,87,100000,low,other_pollution,"Can be caused by air, water, and other toxic material pollution"

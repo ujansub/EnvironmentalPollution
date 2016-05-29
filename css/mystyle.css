@@ -1,0 +1,198 @@
+.q0-9 {
+  fill: #f7fbff; }
+
+.q1-9 {
+  fill: #deebf7; }
+
+.q2-9 {
+  fill: #c6dbef; }
+
+.q3-9 {
+  fill: #9ecae1; }
+
+.q4-9 {
+  fill: #6baed6; }
+
+.q5-9 {
+  fill: #4292c6; }
+
+.q6-9 {
+  fill: #2171b5; }
+
+.q7-9 {
+  fill: #08519c; }
+
+.q8-9 {
+  fill: #08306b; }
+
+.text-center {
+  text-align: center; }
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  background: #fff !important;
+  color: #f26f70 !important; }
+
+.navbar {
+  background: #f26f70;
+  border: none; }
+
+.navbar-default .navbar-brand {
+  color: #FFF; }
+
+.navbar-header {
+  color: #FFF; }
+  .navbar-header > a {
+    color: #fff; }
+
+.navbar-nav {
+  background: #f26f70;
+  border: none; }
+  .navbar-nav > li > a {
+    color: #fff !important; }
+    .navbar-nav > li > a:hover, .navbar-nav > li > a:active, .navbar-nav > li > a:focus {
+      background: #fff !important;
+      color: #f26f70 !important; }
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #FFF; }
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #FFF; }
+
+.navbar-default .navbar-toggle:hover .icon-bar, .navbar-default .navbar-toggle:focus .icon-bar {
+  background-color: #f26f70; }
+
+.heading {
+  margin-top: 60px; }
+
+.custom-select {
+  /* wrapper style */
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #f26f70;
+  margin-bottom: 10px;
+  /* the down arrow */ }
+  .custom-select select {
+    /* Select Reset */
+    border: none;
+    outline: none;
+    background: transparent;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0;
+    margin: 0;
+    display: block;
+    width: 100%;
+    /* custom select appearance */
+    padding: 12px 55px 15px 15px;
+    font-size: 14px; }
+  .custom-select:after {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50px;
+    height: 100%;
+    line-height: 38px;
+    content: '\FFEC';
+    text-align: center;
+    z-index: -1;
+    background: #f26f70;
+    color: #fff;
+    font-size: 24px; }
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: black;
+  shape-rendering: crispEdges; }
+
+.axis text {
+  font-family: sans-serif;
+  font-size: 11px; }
+
+.toolTip {
+  position: absolute;
+  text-align: left;
+  margin: 5px;
+  pointer-events: none;
+  z-index: 1000;
+  background: rgba(0, 0, 0, 0.9);
+  border-radius: 2px;
+  width: auto;
+  padding: 4px;
+  color: white;
+  opacity: 0; }
+
+.selectedCircles:hover {
+  cursor: pointer; }
+
+a, a:visited, a:active, a:hover {
+  color: #444;
+  text-decoration: none; }
+
+.button {
+  width: 160px;
+  text-align: center;
+  background: transparent;
+  color: #f26f70;
+  border: 1px solid #f26f70;
+  cursor: pointer;
+  padding: 12px 12px 10px 10px;
+  font-size: 14px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out; }
+  .button:hover, .button :active, .button :focus {
+    outline: none;
+    background: #f26f70;
+    color: white; }
+
+.button.active {
+  outline: none;
+  background: #f26f70;
+  color: white; }
+
+#vis {
+  text-align: center;
+  clear: both;
+  margin-bottom: 10px; }
+  #vis svg {
+    display: block;
+    margin: 0 auto; }
+
+#toolbar {
+  margin-top: 10px;
+  text-align: center; }
+
+.year {
+  font-size: 21px;
+  fill: #aaa;
+  cursor: default; }
+
+.tooltip {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border: 2px solid #000;
+  background: #fff;
+  opacity: .9;
+  color: black;
+  padding: 10px;
+  width: 300px;
+  font-size: 12px;
+  z-index: 10; }
+
+.tooltip .title {
+  font-size: 13px; }
+
+.tooltip .name {
+  font-weight: bold; }
+
+.footer {
+  text-align: center; }
+
+/*# sourceMappingURL=mystyle.css.map */

@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<head>
+<title>Project3</title>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:700,400,300' rel='stylesheet' type='text/css'>
+<script src="https://d3js.org/d3.v3.min.js"></script>
+<script src="https://d3js.org/topojson.v1.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="data/male_longevity.js"></script>
+<script src="data/female_longevity.js"></script>
+<!-- <script src="lib/d3.js"></script> -->
+<link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/mystyle.css">
+<!-- CSS concatenated and minified via ant build script-->
+<!-- <link rel="stylesheet" href="css/reset.css">
+ --> <!-- <link rel="stylesheet" href="css/bubble_chart.css"> -->
+ <!-- end CSS-->
+</head>
+
+<body onload="sizeChange()">
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">INFO 5100 Project 3</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#options">Options</a></li>
+            <li><a href="#usmap">US Map</a></li>
+            <li><a href="#regression">Scatter & Regression</a></li>
+            <li><a href="#toolbar">Disease Bubbles</a></li>
+          </ul>
+          </div>
+        </div><!--/.nav-collapse -->
+    </nav>
+    
+
+	<!--Options-->
+	<section class="options" id="options">
+	<div class="container">
+		<div class="heading text-center">
+			<h2>Options</h2>
+			<h6>Pollution is an inevitable social problem is this generation. We are facing thousands of pollutants everyday. Below graph shows the distribution of different pollutnts among United States.</h6>
+		</div>	
+        <div class="filteroptions">
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3 text-center">
+					<!-- <label>Parameters: </label><br> -->
+					<div class="custom-select">
+					<select id="param" onchange="drawSelectedOption(this.value)">
+						<option value="pm25">Particulate matter under 2.5 micrometers in aerodynamic diameter in air</option>
+							<option value="pm10">Particulate matter under 10 micrometers in aerodynamic diameter in air</option>
+							<option value="diesel">Diesel engine emissions in air</option>
+							<option value="so2">Sulfur dioxide in air</option>
+							<option value="co">Carbon monoxide in air</option>
+							<option value="no2">Nitrogen dioxide in air</option>
+							<option value="pb">Pb in water</option>
+							<option value="hg">Hg in water</option>
+							<option value="al">Al in water</option>
+							<option value="so4">SO4 in water</option>
+							<option value="cu">Mean level of copper from sampled county sources </option>
+							<option value="se">Mean level of selenium from sampled county sources </option>
+	<!-- 						<option value="healthBusiness">natural log transformed rate of health care-related businesses per county</option> -->
+	<!-- 						<option value="income">Median household income (dollars)</option> -->
+							<option value="maleLongevity">Male longevity</option>
+							<option value="femaleLongevity">Female longevity</option>
+					</select>
+					</div>
+				</div>
+	        </div>
+		</div>
+	</section>
+
+	<!--Map-->
+	<section class="usmap" id="usmap">
+	<div class="container">
+		<div class="heading text-center">
+			<h2>Overview</h2>
+		</div>			
+		<div class="row">
+			<div id="map">
+			</div>
+		</div>
+	</div>
+	</section>
+
+	<!--Scatter and regression-->
+	<section class="regression" id="regression">
+	<div class="container">
+		<div class="heading text-center">
+			<h2>Regression</h2>
+			<h6>Environmental pollution has an obvious impact on people's longevity. This linear regression graph presents relationship between two factors. Among all comparisons, we find that fine particle (PM 2.5) has a strong negative relationship with people's longevity.</h6>
+			<h6>Choosing two parameters you want to compare and one state you are interested in.</h6>
+		</div>		
+		<div class="row">
+			<div class="col-md-4">
+				<!-- <label>Parameters 1: </label><br> -->
+				<div class="custom-select">
+					<select id="param1" onchange="drawRelation(this.value, null, null, null)">
+						<option value="pm25">Particulate matter under 2.5 micrometers in aerodynamic diameter in air</option>
+						<option value="pm10">Particulate matter under 10 micrometers in aerodynamic diameter in air</option>
+						<option value="diesel">Diesel engine emissions in air</option>
+						<option value="so2">SO2 in air</option>
+						<option value="co">CO in air</option>
+						<option value="no2">NO2 in air</option>
+						<option value="pb">Pb in water</option>
+						<option value="hg">Hg in water</option>
+						<option value="al">Al in water</option>
+						<option value="no2_water">NO2 in water</option>
+						<option value="so4">SO4 in water</option>
+						<option value="cu">Mean level of copper from sampled county sources </option>
+						<option value="se">Mean level of selenium from sampled county sources </option>
+<!-- 						<option value="healthBusiness">natural log transformed rate of health care-related businesses per county</option> -->
+<!-- 						<option value="income">Median household income (dollars)</option> -->
+						<option value="maleLongevity">Male longevity</option>
+						<option value="femaleLongevity">Female longevity</option>
+						<option value="qualityoflife">Quality of life</option>
+					</select>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<!-- <label>Parameters 2: </label><br> -->
+				<div class="custom-select">
+					<select id="param2" onchange="drawRelation(null, this.value, null, null)">
+						<option value="pm25">Particulate matter under 2.5 micrometers in aerodynamic diameter in air</option>
+						<option selected="selected" value="pm10">Particulate matter under 10 micrometers in aerodynamic diameter in air</option>
+						<option value="diesel">Diesel engine emissions in air</option>
+						<option value="so2">SO2 in air</option>
+						<option value="co">CO in air</option>
+						<option value="no2">NO2 in air</option>
+						<option value="Pb">Pb in water</option>
+						<option value="hg">Hg in water</option>
+						<option value="al">Al in water</option>
+						<option value="no2_water">NO2 in water</option>
+						<option value="so4">SO4 in water</option>
+						<option value="cu">Mean level of copper from sampled county sources </option>
+						<option value="se">Mean level of selenium from sampled county sources </option>
+<!-- 						<option value="healthBusiness">natural log transformed rate of health care-related businesses per county</option> -->
+	<!-- 					<option value="income">Median household income (dollars)</option> -->
+						<option value="maleLongevity">Male longevity</option>
+						<option value="femaleLongevity">Female longevity</option>
+						<option value="qualityoflife">Quality of life</option>
+					</select>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="custom-select">
+					<select id="state1" onchange="drawRelation(null, null, this.value, null)">
+						<option value="AL">AL</option>
+						<option value="AK">AK</option>
+						<option value="AZ">AZ</option>
+						<option value="AR">AR</option>
+						<option value="CA">CA</option>
+						<option value="CO">CO</option>
+						<option value="CT">CT</option>
+						<option value="DE">DE</option>
+						<option value="FL">FL</option>
+						<option value="GA">GA</option>
+						<option value="HI">HI</option>
+						<option value="ID">ID</option>
+						<option value="IL">IL</option>
+						<option value="IN">IN</option>
+						<option value="IA">IA</option>
+						<option value="KS">KS</option>
+						<option value="KY">KY</option>
+						<option value="LA">LA</option>
+						<option value="ME">ME</option>
+						<option value="MD">MD</option>
+						<option value="MA">MA</option>
+						<option value="MI">MI</option>
+						<option value="MN">MN</option>
+						<option value="MS">MS</option>
+						<option value="MO">MO</option>
+						<option value="MT">MT</option>
+						<option value="NE">NE</option>
+						<option value="NV">NV</option>
+						<option value="NH">NH</option>
+						<option value="NJ">NJ</option>
+						<option value="NM">NM</option>
+						<option value="NY">NY</option>
+						<option value="NC">NC</option>
+						<option value="ND">ND</option>
+						<option value="OH">OH</option>
+						<option value="OK">OK</option>
+						<option value="OR">OR</option>
+						<option value="PA">PA</option>
+						<option value="RI">RI</option>
+						<option value="SC">SC</option>
+						<option value="SD">SD</option>
+						<option value="TN">TN</option>
+						<option value="TX">TX</option>
+						<option value="UT">UT</option>
+						<option value="VA">VA</option>
+						<option value="VT">VT</option>
+						<option value="WA">WA</option>
+						<option value="WV">WV</option>
+						<option value="WI">WI</option>
+						<option value="WY">WY</option>
+					</select>
+					</div>
+				</div>
+		</div>	
+		<div class="row">
+			<div id="scatter">
+			</div>
+		</div>
+	</div>
+	</section>
+
+	<section class="bubble">
+		<div class="container">
+			<div class="heading text-center">
+			    <h1>Disease related to encironmental pollution</h1>
+			    <h6>When talking about environmental diseases, it is often mentioned together with correspondant diseases. There are many disease triggered by differnt pollution factors. Below is some disease listed by Centers for Disease Control and Prevention and National Institutes of Health as pollution related diseases. The size of circle represents the severity and morbidity of one disease.</h6>
+			</div>
+			<div class="row">    
+			    <div id="toolbar">
+			      <button href="#" id="all" class="button active">All Diseases</button>
+			      <button href="#" id="category" class="button">Disease By Category</button>
+			    </div>
+			    <div class="col-md-12" id="bubbleWrapper">
+			    	<div id="vis"></div>
+			    </div>
+		    </div>
+	  </div>
+	</section>
+	
+
+<!--Javascripts-->
+<script src="js/customscript.js"></script>
+<script src="js/tooltip.js"></script>
+<script src="js/bubble_chart.js"></script>
+<script type="text/javascript">
+(function(){
+	// navbar add .active class
+	$(".nav a").on("click", function(){
+   		$(".nav").find(".active").removeClass("active");
+   		$(this).parent().addClass("active");
+	});
+}());	
+</script>
+
+</body>
+</html>

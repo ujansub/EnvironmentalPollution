@@ -1,0 +1,251 @@
+Rank,Name,County_fips,qualityoflife
+1,"San Francisco County, CA","06075 ",186
+2,"Orange County, CA","06059 ",182
+2,"San Diego County, CA","06073 ",182
+2,"Santa Clara County, CA","06085 ",182
+5,"Santa Barbara County, CA","06083 ",180
+5,"Charleston County, SC","45019 ",180
+7,"Los Angeles County, CA","06037 ",179
+7,"Marin County, CA","06041 ",179
+7,"Napa County, CA","06055 ",179
+10,"San Mateo County, CA","06081 ",178
+10,"Honolulu County, HI","15003 ",178
+12,"Alameda County, CA","06001 ",177
+12,"San Luis Obispo County, CA","06079 ",177
+12,"Santa Cruz County, CA","06087 ",177
+12,"Sonoma County, CA","06097 ",177
+12,"Maui County, HI","15009 ",177
+17,"Ventura County, CA","06111 ",176
+18,"Contra Costa County, CA","06013 ",175
+18,"Pinellas County, FL","12103 ",175
+20,"Pima County, AZ","04019 ",174
+20,"Monterey County, CA","06053 ",174
+22,"Placer County, CA","06061 ",173
+22,"Sarasota County, FL","12115 ",173
+22,"Chatham County, GA","13051 ",173
+25,"Maricopa County, AZ","04013 ",172
+25,"Palm Beach County, FL","12099 ",172
+25,"Fulton County, GA","13121 ",172
+28,"Nevada County, CA","06057 ",171
+28,"Sacramento County, CA","06067 ",171
+28,"Orange County, FL","12095 ",171
+31,"El Dorado County, CA","06017 ",170
+31,"Riverside County, CA","06065 ",170
+31,"Shasta County, CA","06089 ",170
+31,"Duval County, FL","12031 ",170
+31,"Martin County, FL","12085 ",170
+31,"Clark County, NV","32003 ",170
+31,"Beaufort County, SC","45013 ",170
+38,"Butte County, CA","06007 ",169
+38,"Collier County, FL","12021 ",169
+38,"Hillsborough County, FL","12057 ",169
+38,"Travis County, TX","48453 ",169
+42,"Yavapai County, AZ","04025 ",168
+42,"Mendocino County, CA","06045 ",168
+42,"Solano County, CA","06095 ",168
+42,"Tuolumne County, CA","06109 ",168
+42,"Broward County, FL","12011 ",168
+42,"Lee County, FL","12071 ",168
+42,"Monroe County, FL","12087 ",168
+42,"New Hanover County, NC","37129 ",168
+50,"Fresno County, CA","06019 ",167
+50,"Yolo County, CA","06113 ",167
+50,"Brevard County, FL","12009 ",167
+50,"Miami-Dade County, FL","12086 ",167
+50,"Volusia County, FL","12127 ",167
+50,"Dallas County, TX","48113 ",167
+56,"Stanislaus County, CA","06099 ",166
+56,"Alachua County, FL","12001 ",166
+56,"Indian River County, FL","12061 ",166
+56,"Seminole County, FL","12117 ",166
+56,"Galveston County, TX","48167 ",166
+61,"Humboldt County, CA","06023 ",165
+61,"Inyo County, CA","06027 ",165
+61,"San Bernardino County, CA","06071 ",165
+61,"Collin County, TX","48085 ",165
+65,"Manatee County, FL","12081 ",164
+65,"St. Johns County, FL","12109 ",164
+65,"Nueces County, TX","48355 ",164
+68,"Bay County, FL","12005 ",163
+68,"Okaloosa County, FL","12091 ",163
+68,"Comal County, TX","48091 ",163
+68,"Smith County, TX","48423 ",163
+72,"Mono County, CA","06051 ",162
+72,"San Joaquin County, CA","06077 ",162
+72,"Glynn County, GA","13127 ",162
+72,"Calcasieu Parish, LA","22019 ",162
+72,"Bexar County, TX","48029 ",162
+77,"Charlotte County, FL","12015 ",161
+77,"Lake County, FL","12069 ",161
+77,"Denton County, TX","48121 ",161
+80,"Kern County, CA","06029 ",160
+80,"Marion County, FL","12083 ",160
+80,"Richmond County, GA","13245 ",160
+80,"Rapides Parish, LA","22079 ",160
+80,"Mecklenburg County, NC","37119 ",160
+80,"Gillespie County, TX","48171 ",160
+80,"Midland County, TX","48329 ",160
+87,"Escambia County, FL","12033 ",159
+87,"Bibb County, GA","13021 ",159
+87,"Caddo Parish, LA","22017 ",159
+87,"Carteret County, NC","37031 ",159
+87,"Kerr County, TX","48265 ",159
+87,"Taylor County, TX","48441 ",159
+93,"Polk County, FL","12105 ",158
+93,"Cobb County, GA","13067 ",158
+93,"Fayette County, GA","13113 ",158
+93,"Muscogee County, GA","13215 ",158
+93,"Cumberland County, NC","37051 ",158
+93,"Horry County, SC","45051 ",158
+93,"Gregg County, TX","48183 ",158
+93,"Tom Green County, TX","48451 ",158
+93,"King County, WA","53033 ",158
+102,"Cochise County, AZ","04003 ",157
+102,"Yuma County, AZ","04027 ",157
+102,"Amador County, CA","06005 ",157
+102,"Ouachita Parish, LA","22073 ",157
+102,"Richland County, SC","45079 ",157
+102,"Brazos County, TX","48041 ",157
+102,"El Paso County, TX","48141 ",157
+102,"Grayson County, TX","48181 ",157
+102,"Hays County, TX","48209 ",157
+111,"Flagler County, FL","12035 ",156
+111,"Lowndes County, GA","13185 ",156
+111,"Dare County, NC","37055 ",156
+111,"Parker County, TX","48367 ",156
+111,"Rockwall County, TX","48397 ",156
+111,"Victoria County, TX","48469 ",156
+117,"Mohave County, AZ","04015 ",155
+117,"San Benito County, CA","06069 ",155
+117,"Citrus County, FL","12017 ",155
+117,"Pasco County, FL","12101 ",155
+117,"St. Lucie County, FL","12111 ",155
+117,"DeKalb County, GA","13089 ",155
+117,"Gwinnett County, GA","13135 ",155
+117,"Orleans Parish, LA","22071 ",155
+117,"Berkeley County, SC","45015 ",155
+126,"Kings County, CA","06031 ",154
+126,"Lake County, CA","06033 ",154
+126,"Mariposa County, CA","06043 ",154
+126,"Sutter County, CA","06101 ",154
+126,"Yuba County, CA","06115 ",154
+126,"Osceola County, FL","12097 ",154
+126,"Dougherty County, GA","13095 ",154
+126,"Hall County, GA","13139 ",154
+126,"Bowie County, TX","48037 ",154
+135,"Montgomery County, AL","01101 ",153
+135,"Merced County, CA","06047 ",153
+135,"Plumas County, CA","06063 ",153
+135,"Siskiyou County, CA","06093 ",153
+135,"Clay County, FL","12019 ",153
+135,"Clarke County, GA","13059 ",153
+135,"Kauai County, HI","15007 ",153
+135,"Georgetown County, SC","45043 ",153
+135,"Cameron County, TX","48061 ",153
+135,"McLennan County, TX","48309 ",153
+135,"Williamson County, TX","48491 ",153
+146,"Calaveras County, CA","06009 ",152
+146,"Hernando County, FL","12053 ",152
+146,"Highlands County, FL","12055 ",152
+146,"Troup County, GA","13285 ",152
+146,"Bell County, TX","48027 ",152
+146,"Walker County, TX","48471 ",152
+152,"Craighead County, AR","05031 ",151
+152,"Madera County, CA","06039 ",151
+152,"Tulare County, CA","06107 ",151
+152,"Nassau County, FL","12089 ",151
+152,"Lincoln County, NM","35027 ",151
+152,"Santa Fe County, NM","35049 ",151
+152,"Aransas County, TX","48007 ",151
+152,"Burnet County, TX","48053 ",151
+152,"Guadalupe County, TX","48187 ",151
+152,"Johnson County, TX","48251 ",151
+152,"San Patricio County, TX","48409 ",151
+163,"Colusa County, CA","06011 ",150
+163,"Walton County, FL","12131 ",150
+163,"Floyd County, GA","13115 ",150
+163,"Houston County, GA","13153 ",150
+163,"East Baton Rouge Parish, LA","22033 ",150
+163,"Washoe County, NV","32031 ",150
+163,"Craven County, NC","37049 ",150
+163,"Multnomah County, OR","41051 ",150
+163,"Dorchester County, SC","45035 ",150
+163,"Erath County, TX","48143 ",150
+163,"Fayette County, TX","48149 ",150
+163,"Jefferson County, TX","48245 ",150
+175,"Pinal County, AZ","04021 ",149
+175,"Tehama County, CA","06103 ",149
+175,"Coweta County, GA","13077 ",149
+175,"Forsyth County, GA","13117 ",149
+175,"Jefferson Parish, LA","22051 ",149
+175,"Lafayette Parish, LA","22055 ",149
+175,"Catawba County, NC","37035 ",149
+175,"Shelby County, TN","47157 ",149
+175,"Hidalgo County, TX","48215 ",149
+184,"Santa Cruz County, AZ","04023 ",148
+184,"Alpine County, CA","06003 ",148
+184,"Okeechobee County, FL","12093 ",148
+184,"Santa Rosa County, FL","12113 ",148
+184,"Cherokee County, GA","13057 ",148
+184,"Oconee County, GA","13219 ",148
+184,"Rabun County, GA","13241 ",148
+184,"Ware County, GA","13299 ",148
+184,"St. Tammany Parish, LA","22103 ",148
+184,"Bernalillo County, NM","35001 ",148
+184,"Cabarrus County, NC","37025 ",148
+184,"Ector County, TX","48135 ",148
+184,"Hunt County, TX","48231 ",148
+184,"Lamar County, TX","48277 ",148
+184,"Whatcom County, WA","53073 ",148
+199,"Leon County, FL","12073 ",147
+199,"Thomas County, GA","13275 ",147
+199,"Buncombe County, NC","37021 ",147
+199,"Ellis County, TX","48139 ",147
+199,"Harris County, TX","48201 ",147
+199,"Hopkins County, TX","48223 ",147
+199,"Kendall County, TX","48259 ",147
+199,"Lubbock County, TX","48303 ",147
+199,"Tarrant County, TX","48439 ",147
+208,"Gila County, AZ","04007 ",146
+208,"La Paz County, AZ","04012 ",146
+208,"Glenn County, CA","06021 ",146
+208,"Lassen County, CA","06035 ",146
+208,"Bulloch County, GA","13031 ",146
+208,"Lincoln Parish, LA","22061 ",146
+208,"Brunswick County, NC","37019 ",146
+208,"Forsyth County, NC","37067 ",146
+208,"Moore County, NC","37125 ",146
+208,"Oklahoma County, OK","40109 ",146
+208,"Greenville County, SC","45045 ",146
+219,"Houston County, AL","01069 ",145
+219,"Mobile County, AL","01097 ",145
+219,"White County, AR","05145 ",145
+219,"Camden County, GA","13039 ",145
+219,"Dawson County, GA","13085 ",145
+219,"Fannin County, GA","13111 ",145
+219,"Towns County, GA","13281 ",145
+219,"Nye County, NV","32023 ",145
+219,"Guilford County, NC","37081 ",145
+219,"Onslow County, NC","37133 ",145
+219,"Aiken County, SC","45003 ",145
+219,"Florence County, SC","45041 ",145
+219,"Washington County, TX","48477 ",145
+219,"Kitsap County, WA","53035 ",145
+233,"Faulkner County, AR","05045 ",144
+233,"Imperial County, CA","06025 ",144
+233,"Trinity County, CA","06105 ",144
+233,"Bartow County, GA","13015 ",144
+233,"Greene County, GA","13133 ",144
+233,"Orange County, NC","37135 ",144
+233,"Pasquotank County, NC","37139 ",144
+233,"Madison County, TN","47113 ",144
+233,"Harrison County, TX","48203 ",144
+233,"Uvalde County, TX","48463 ",144
+233,"Webb County, TX","48479 ",144
+233,"Virginia Beach city, VA","51810 ",144
+245,"Baldwin County, AL","01003 ",143
+245,"Jefferson County, AL","01073 ",143
+245,"Sumter County, FL","12119 ",143
+245,"Columbia County, GA","13073 ",143
+245,"Henry County, GA","13151 ",143
+245,"Jones County, GA","13169 ",143
